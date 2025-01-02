@@ -1,101 +1,11 @@
-// import React from "react";
-// import Image from "../assets/main.jpg";
-
-// const HeroSection = () => {
-//   return (
-//     <section className="bg-gray-200">
-//       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-4 py-16 space-y-8 md:space-y-0 md:space-x-12">
-//         {/* Text Content */}
-//         <div className="text-center md:text-left max-w-lg">
-//           <h1 className="text-4xl md:text-5xl font-bold text-blue-600 leading-tight">
-//             Comprehensive Care, <br /> Trusted Professionals
-//           </h1>
-//           <p className="text-gray-700 text-lg mt-4">
-//             Providing advanced medical services with care and compassion for all your healthcare needs. Your health is our priority.
-//           </p>
-//           <div className="mt-6 flex justify-center md:justify-start space-x-4">
-//             <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700">
-//               Book an Appointment
-//             </button>
-//             <button className="px-6 py-3 bg-gray-200 text-blue-600 rounded-lg shadow-lg hover:bg-gray-300">
-//               Learn More
-//             </button>
-//           </div>
-//         </div>
-
-//         {/* Image Content */}
-//         <div className="flex justify-center md:justify-end">
-//           <img
-//             src={Image}
-//             alt="Hospital Hero"
-//             className="rounded-lg shadow-lg"
-//           />
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default HeroSection;
-
-
-// import React from "react";
-// import video from "../assets/logo_video.mp4";
-
-// const HeroSection = () => {
-//   return (
-//     <section className="bg-gray-100">
-//       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-4 py-16 space-y-8 md:space-y-0 md:space-x-12">
-//         {/* Text Content */}
-//         <div className="text-center md:text-left max-w-lg">
-//           <h1 className="text-4xl md:text-5xl font-bold text-blue-600 leading-tight">
-//             Comprehensive Care, <br /> Trusted Professionals
-//           </h1>
-//           <p className="text-gray-700 text-lg mt-4">
-//             Providing advanced medical services with care and compassion for all your healthcare needs. Your health is our priority.
-//           </p>
-//           <div className="mt-6 flex justify-center md:justify-start space-x-4">
-//             <button className="px-6 py-3 bg-blue-600 text-white rounded-lg shadow-lg hover:bg-blue-700">
-//               Book an Appointment
-//             </button>
-//             <button className="px-6 py-3 bg-gray-200 text-blue-600 rounded-lg shadow-lg hover:bg-gray-300">
-//               Learn More
-//             </button>
-//           </div>
-//         </div>
-
-//         {/* Video Content */}
-//         <div className="flex justify-center md:justify-end">
-//           <video
-//             className="rounded-lg shadow-lg w-full md:w-[400px]"
-//             autoPlay
-//             loop
-//             muted
-//             playsInline
-//           >
-//             <source
-//               src={video} // hospital-related video
-//               type="video/mp4"
-//             />
-//             Your browser does not support the video tag.
-//           </video>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default HeroSection;
-
-
 import React from "react";
 import video from "../assets/logo_video.mp4";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import { NavLink } from "react-router-dom";
 import { AiOutlineCheck } from "react-icons/ai";
 import Future from "../assets/future.jpg";
 import Choose from "../assets/Choose.jpg";
-import Main from "../assets/main.jpg";
+// import Main from "../assets/main.jpg";
 import Image1 from "../assets/image1.svg";
 import Image2 from "../assets/image2.svg";
 import Image3 from "../assets/image3.svg";

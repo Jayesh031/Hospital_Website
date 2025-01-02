@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Doctor1 from "../assets/Doctor1.jpg";
 import Doctor2 from "../assets/Doctor2.jpg";
-import Main from "../assets/main.jpg"
+// import Main from "../assets/main.jpg"
 
 const About = () => {
     const teamMembers = [
