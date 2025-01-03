@@ -13,7 +13,7 @@ import Image4 from "../assets/image4.svg";
 const HeroSection = () => {
   return (
     <>
-      <section className="bg-white  mt-[5rem]">
+      <section className="bg-white ">
         {/* <Navbar/> */}
         <div className="container mx-auto flex flex-col md:flex-row items-center px-4 py-10 space-y-8 md:space-y-0 md:space-x-12">
           {/* Video Content (Right for Medium Screens, Top for Small Screens) */}
