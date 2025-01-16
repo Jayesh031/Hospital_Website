@@ -129,7 +129,7 @@ const HeroSection = () => {
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <h2 className="text-2xl lg:text-3xl font-bold mb-4 text-[#0288D1]">Why Choose Us?</h2>
 
-            <ul className="space-y-4">
+            <ul className="space-y-4 text-left ">
               <li className="flex items-start justify-center lg:justify-start">
                 <AiOutlineCheck className="text-green-400 text-2xl font-bold mr-2" />
                 <p>Experienced and qualified medical professionals.</p>
