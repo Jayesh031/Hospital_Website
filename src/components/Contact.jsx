@@ -7,7 +7,7 @@ const Contact = () => {
     <div>
         <Navbar />
       {/* Contact Information Section */}
-      <section className="bg-gray-50 py-16 px-4 mt-12">
+      <section className="bg-gray-50 py-16 px-4 ">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#0288D1] mb-4">Contact Us</h2>
           <p className="text-gray-600 text-lg leading-relaxed">

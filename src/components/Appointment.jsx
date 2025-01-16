@@ -59,7 +59,7 @@ const Appointment = () => {
       <Navbar />
 
       {/* Hospital Information */}
-      <section className="bg-gray-50 text-gray-500 text-center p-8 mt-[70px]">
+      <section className="bg-gray-50 text-gray-500 text-center p-8 ">
         <h2 className="text-xl font-semibold mb-2">Welcome to Indrayani Hospital</h2>
         <p className="text-sm">
           Our hospital operates from <strong>10:00 AM to 6:00 PM</strong>. Please book your appointments within this time window.

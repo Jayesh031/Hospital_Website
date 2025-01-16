@@ -9,7 +9,7 @@ const Services = () => {
       <Navbar />
 
       {/* Content Section */}
-      <div className="flex-grow bg-gray-100 py-12 px-4 sm:px-8 md:px-16 mt-[5rem]">
+      <div className="flex-grow bg-gray-100 py-12 px-4 sm:px-8 md:px-16 ">
         <h1 className="text-3xl md:text-4xl font-bold text-center mb-12 text-[#0288D1]">
           Our Services
         </h1>

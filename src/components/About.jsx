@@ -3,8 +3,9 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Doctor1 from "../assets/Doctor1.jpg";
 import Doctor2 from "../assets/Doctor2.jpg";
-// import Main from "../assets/main.jpg"
-
+import Testti1 from '../assets/Testti-1.png'
+import Testti2 from '../assets/Testti-2.png'
+import Testti3 from '../assets/Testti-3.png'
 const About = () => {
     const teamMembers = [
         {
@@ -25,42 +26,21 @@ const About = () => {
 
     const testimonials = [
         {
-            photo: 'https://via.placeholder.com/48',
-            name: "Alice Johnson",
-            review: "The staff was very helpful, and the doctors are highly professional."
+            photo: Testti1,
         },
         {
-            photo: "https://via.placeholder.com/48",
-            name: "Michael Lee",
-            review: "Clean and well-equipped hospital. Highly recommend!"
+            photo: Testti2,
         },
         {
-            photo: "https://via.placeholder.com/48",
-            name: "Sophia Turner",
-            review: "Great experience, the best healthcare services I've ever received."
+            photo: Testti3,
         },
         {
-            photo: "https://via.placeholder.com/48",
-            name: "Daniel Kim",
-            review: "Doctors were kind and attentive. Wonderful support team."
+            photo:Testti1,
         },
         {
-            photo: "https://via.placeholder.com/48",
-            name: "Olivia Brown",
-            review: "Top-notch facilities and exceptional patient care."
+            photo: Testti2,
         },
-        {
-            photo: "https://via.placeholder.com/48",
-            name: "Emma Wilson",
-            review: "I felt at home during my stay, and the recovery was smooth."
-        },
-        {
-            photo: "https://via.placeholder.com/48",
-            name: "James Garcia",
-            review: "Very knowledgeable doctors and courteous staff."
-        }
     ];
-
 
     return (
         <div className="flex flex-col min-h-screen">
@@ -68,7 +48,7 @@ const About = () => {
             <Navbar />
 
             {/* Heading and Paragraph */}
-            <div className="py-12 text-center bg-gray-100 mt-[5.5rem]">
+            <div className="py-12 text-center bg-gray-100 mt-[rem]">
                 <h1 className="text-4xl font-bold mb-4 text-[#0288D1]">About Us</h1>
                 <p className="text-lg text-gray-700 max-w-2xl mx-auto">
                     Welcome to our hospital, where we are committed to providing
@@ -125,27 +105,20 @@ const About = () => {
                 <h2 className="text-3xl font-bold text-center mb-8 text-[#0288D1]">Testimonials</h2>
                 <div className="overflow-hidden relative">
                     <div
-                        className="flex space-x-6 transition-transform duration-300 ease-linear"
+                        className="flex mb-3 space-x-6 transition-transform duration-300 ease-linear"
                         id="testimonialScroll"
                     >
                         {testimonials.map((testimonial, index) => (
                             <div
                                 key={index}
-                                className="bg-gray-100 rounded-lg shadow-lg p-6 min-w-[300px] flex-shrink-0"
+                                className="bg-gray-100 rounded-lg shadow-lg overflow-hidden min-w-[300px] flex-shrink-0"
+                                style={{ height: "300px" }}
                             >
-                                {/* First Row: Photo and Name */}
-                                <div className="flex items-center mb-4">
-                                    <img
-                                        src={testimonial.photo}
-                                        alt={testimonial.name}
-                                        className="w-12 h-12 rounded-full mr-4"
-                                    />
-                                    <div>
-                                        <h3 className="text-lg font-bold">{testimonial.name}</h3>
-                                    </div>
-                                </div>
-                                {/* Second Row: Review */}
-                                <p className="italic text-gray-700">"{testimonial.review}"</p>
+                                <img
+                                src={testimonial.photo}
+                                alt={`Testimonial ${index + 1}`}
+                                className="w-full h-full object-cover rounded-lg"
+                            />
                             </div>
                         ))}
                     </div>
